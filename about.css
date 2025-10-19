@@ -1,0 +1,205 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: "Inter", sans-serif;
+}
+
+#btnn {
+    background-color: orange;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 100%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    transition-duration: linear;
+}
+
+
+
+#div1 {
+    padding-top: 15px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.line2 {
+    width: 300px;
+    border: 2px solid rgb(185, 141, 59);
+    border-radius: 50%;
+}
+
+#btnn:hover {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#about-div {
+    padding-top: 20px;
+    display: flex;
+    width: fit-content;
+    background-color: black;
+    justify-content: center;
+    column-gap: 40px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+#aboutcontent {
+    display: flex;
+    background: linear-gradient(rgb(62, 62, 62), black);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 50px;
+    margin: 10px;
+    height: 700px;
+    padding: 10px;
+}
+
+.profile-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    column-gap: 10px;
+
+
+}
+
+#about-p {
+
+    width: 80%;
+    height: fit-content;
+
+}
+
+.about-p-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+
+#btn1 {
+    padding: 10px;
+    background-color: black;
+    border: none;
+    transform: scale(1);
+    box-shadow: 2px 2px 2px orange;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    width: 300px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#btn1:hover {
+    background-color: orange;
+}
+
+
+
+#blog-btn {
+    padding: 10px;
+    background-color: black;
+    border: 1px solid orange;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    transform: scale(1);
+    box-shadow: 2px 2px 2px orange;
+    cursor: pointer;
+    width: 300px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+#blog-btn:hover {
+    background-color: orange;
+}
+
+
+span {
+    font-weight: 900;
+    color: orange;
+
+}
+
+.imgg {
+    width: 40px;
+}
+
+#Personal {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.information {
+    display: flex;
+    align-items: flex-left;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+
+@media (max-width: 768px) {
+
+    .line2 {
+        width: 150px;
+        border: 1px solid rgb(185, 141, 59)
+    }
+
+    #div1 {
+        display: none;
+    }
+
+
+    #btnn {
+
+        height: 50px;
+        width: 50px;
+        top: 35px;
+        right: 15px;
+    }
+
+    #about-div {
+        height: auto;
+
+    }
+
+    #aboutcontent {
+        height: 750px;
+        width: fit-content;
+        padding: 20px;
+    }
+
+    .imgg {
+        width: 25px;
+    }
+
+    .two-btn {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
