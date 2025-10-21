@@ -77,24 +77,34 @@
           <p>If you have any suggestion, project or even you want to say Hello.. Please fill out the form below and I
             will reply you shortly.</p>
 
-          <div style="display: flex;flex-direction: column;row-gap: 40px;padding-top: 20px;">
+          <form action="https://api.web3forms.com/submit" method="post">
 
-            <div class="massage">
-              <img style="width: 20px;height: 20px;" src="usr.png" alt=""><input class="inp" type="text"
-                placeholder="name">
+            <input type="hidden" name="access_key" value="11c7ba16-21c7-4ead-8ac7-961796abf7a3">
+
+            <div style="display: flex;flex-direction: column;row-gap: 40px;padding-top: 20px;">
+
+              <div class="massage">
+                <img style="width: 20px;height: 20px;" src="usr.png" alt=""><input class="inp" type="text" name="name"
+                  placeholder="name">
+              </div>
+
+              <div class="massage">
+                <img style="width: 20px;height: 20px;" src="edit.png" alt=""><input class="inp" type="email"
+                  name="email" placeholder="Email">
+              </div>
+
+              <div class="massage" style="display: flex;">
+                <img style="width: 20px;height: 20px;" src="chat.png" alt="">
+                <textarea placeholder="massage" class="inp" name="massage"></textarea>
+              </div>
+              <input type="hidden" name="redirect" value="https://howitpossible.com">
+
+              <button class="glow-button" type="submit">Submit</button>
+
             </div>
 
-            <div class="massage">
-              <img style="width: 20px;height: 20px;" src="edit.png" alt=""><input class="inp" type="email"
-                placeholder="Email">
-            </div>
 
-            <div class="massage" style="display: flex;">
-              <img style="width: 20px;height: 20px;" src="chat.png" alt="">
-              <textarea placeholder="massage" class="inp"></textarea>
-            </div>
-
-          </div>
+          </form>
 
         </div>
 

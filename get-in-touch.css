@@ -166,6 +166,25 @@ textarea::placeholder {
     gap: 20px;
 }
 
+.glow-button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ce8114;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+}
+
+.glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 35px rgba(233, 188, 82, 0.4);
+
+}
+
 @media (max-width: 768px) {
     .div1 {
         display: none;
